@@ -1,0 +1,23 @@
+﻿  Main.cpp
+c:\users\анастасия\desktop\data structures\doublylinkedlistdll\doublylinkedlistdll.h(138): error C2662: 'bool DoublyLinkedListDLL::DoublyLinkedList<T>::isEmpty(void)': cannot convert 'this' pointer from 'const DoublyLinkedListDLL::DoublyLinkedList<T>' to 'DoublyLinkedListDLL::DoublyLinkedList<T> &'
+          with
+          [
+              T=int
+          ]
+  c:\users\анастасия\desktop\data structures\doublylinkedlistdll\doublylinkedlistdll.h(138): note: Conversion loses qualifiers
+  c:\users\анастасия\desktop\data structures\doublylinkedlistdll\doublylinkedlistdll.h(137): note: while compiling class template member function 'int DoublyLinkedListDLL::DoublyLinkedList<T>::getFirst(void) const'
+          with
+          [
+              T=int
+          ]
+  c:\users\анастасия\desktop\data structures\stack\stack.h(18): note: see reference to function template instantiation 'int DoublyLinkedListDLL::DoublyLinkedList<T>::getFirst(void) const' being compiled
+          with
+          [
+              T=int
+          ]
+  c:\users\анастасия\desktop\data structures\stack\stack.h(23): note: see reference to class template instantiation 'DoublyLinkedListDLL::DoublyLinkedList<T>' being compiled
+          with
+          [
+              T=int
+          ]
+  c:\users\анастасия\desktop\data structures\stack\main.cpp(7): note: see reference to class template instantiation 'Stack<int>' being compiled
